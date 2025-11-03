@@ -1,4 +1,3 @@
-export interface createpostform{
-    createPost:(title:string, body:string) => void,
+export interface CreatePostFormProps{
     otherProps?:unknown
 }
